@@ -1,0 +1,11 @@
+{
+  "dataset": "tdrive",
+  "measure": "haus",
+  "stage": "continuous",
+  "epochs": 200,
+  "image_mode": "haus4_no_density_no_turn",
+  "aux_kernel_sizes": [3, 5],
+  "metric_loss_norm": "target_train_mean",
+  "eval_batch_size": 96,
+  "eval_chunk_size": 1024
+}

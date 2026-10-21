@@ -1,0 +1,20 @@
+{
+  "dataset": "geolife",
+  "measure": "dtw",
+  "stage": "vq",
+  "epochs": 500,
+  "image_mode": "dtw5_no_direction",
+  "aux_kernel_sizes": [5, 7],
+  "metric_loss_norm": "none",
+  "pdt_m": 8,
+  "pdt_k": 16,
+  "pdt_steps": 8,
+  "pdt_heads": 4,
+  "pdt_loss_start_epoch": 40,
+  "pdt_loss_weight": 0.1,
+  "adc_ste_start_epoch": 80,
+  "adc_ste_warmup_epochs": 20,
+  "adc_ste_max_weight": 0.03,
+  "eval_batch_size": 1024,
+  "eval_chunk_size": 10240
+}

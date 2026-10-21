@@ -1,0 +1,11 @@
+{
+  "dataset": "tdrive",
+  "measure": "dtw",
+  "stage": "continuous",
+  "epochs": 200,
+  "image_mode": "dtw5_no_direction",
+  "aux_kernel_sizes": [5, 7],
+  "metric_loss_norm": "none",
+  "eval_batch_size": 96,
+  "eval_chunk_size": 1024
+}
